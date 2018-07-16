@@ -10,3 +10,5 @@ lazy val root = (project in file(".")).
     name := "test-scala-linters",
     libraryDependencies += scalaTest % Test
   )
+
+scapegoatVersion in ThisBuild := "1.3.6"
